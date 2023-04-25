@@ -1,4 +1,16 @@
-# gmailArchiveScript
+# Set up autoarchive filter/tag
+
+Setting up this filter will help automatically tag emails that are fit for auto-archiving. It includes common words that I am using to filter.
+
+1. From: "notifications@" or "marketing@" or "sales@" or "support@" or "orders@" or "donotreply@"
+2. To: 
+3. Subject: 
+4. Has the words: "unsubscribe" OR "do not reply" OR "noreply" OR "Unsubscribe" OR "no-reply" OR "©" OR "©" OR "notification settings" OR "All rights reserved" OR "®" OR "Order #" OR "Order summary"
+5. Doesn't have:
+6. Size: 
+
+
+# Set up Archiving Script
 
 Google script to automatically archive or trash old emails based on defined search terms.
 Supports multiple rules, with custom actions for each rule.
