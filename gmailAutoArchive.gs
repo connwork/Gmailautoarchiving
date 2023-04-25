@@ -28,7 +28,7 @@ function gmailAutoarchive() {
     trash :   false                // Trash will move the items to your Trash folder, they will be automatically deleted after 30 days
   };             
   
-  const globalrule = '-is:starred' // Include in all search terms
+  const globalrule = '-is:starred -in:archive' // Include in all search terms
     
   const rules = {                  // defined rules, examples as follows
 
