@@ -32,6 +32,11 @@ function gmailAutoarchive() {
     
   const rules = {                  // defined rules, examples as follows
 
+      "label:autoarchive" : {           // Search terms
+      daystokeep : 4,           // Days to keep
+      archive : true,            
+      trash : false              
+
 //    "label:Beskar" : {           // Search terms
 //      daystokeep : 14,           // Days to keep
 //      archive : true,            // Override Default Actions
