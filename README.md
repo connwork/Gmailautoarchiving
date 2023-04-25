@@ -7,13 +7,13 @@ First Filter
 1. From:
 2. To: 
 3. Subject: 
-4. Has the words: "unsubscribe" OR "do not reply" OR "noreply" OR "Unsubscribe" OR "no-reply" OR "©" OR "©" OR "notification settings" OR "All rights reserved" OR "®" OR "Order #" OR "Order summary"
+4. Has the words:"unsubscribe" OR "do not reply" OR "noreply" OR "Unsubscribe" OR "no-reply" OR "©" OR "©" OR "notification settings" OR "All rights reserved" OR "®" OR "Order #" OR "Order summary"
 5. Doesn't have:
 6. Size: 
 
 Second Filter
 
-1. From: "notifications@" or "marketing@" or "sales@" or "support@" or "orders@" or "donotreply@"
+1. From:"mail@*" OR "notifications@*" OR "marketing@*" OR "sales@*" OR "support@*" OR "orders@*" OR "donotreply@*"
 2. To: 
 3. Subject: 
 4. Has the words:
