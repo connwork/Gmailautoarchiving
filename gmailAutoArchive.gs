@@ -41,7 +41,7 @@ function gmailAutoarchive() {
 //      daystokeep : 14,           // Days to keep
 //      archive : true,            // Override Default Actions
 //      trash : false              // Override Default Actions
-//    },
+    },
   
 //    "from:Kenobi" : 14,          // Define Search terms and days to keep only, use default actions
     
