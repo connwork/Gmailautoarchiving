@@ -39,5 +39,5 @@ Uses Gmail search syntax to find matching threads.
 # Method 2 (In Progress)
 1. Create an alternate email based on your primary email (firstname.lastname@gmail.com) with the word "filter" at the end (firstname.lastname.filter@gmail.com)
 2. In your filter email address: In settings, see all settings, Forwarding and POP/IMAP, add your primary email as a forwarding address. 
-3. In your filter email address: Create a filter with to: -"firstname.lastname gmail.com" and assign it to apply the label "alias not respected: autospam"
+3. In your filter email address: Create a filter with Doesn't have: ("to:firstname.lastname.filter+") and assign it to apply the label "alias not respected: autospam"
 4. 
