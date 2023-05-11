@@ -1,4 +1,4 @@
-# Method 1 (Complete)
+# Part 1: Mass Autotagging (Complete)
 ## Set up autoarchive filter/tag
 
 Setting up this filter will help automatically tag emails that are fit for auto-archiving. It includes common words that I am using to filter.
@@ -36,8 +36,11 @@ Uses Gmail search syntax to find matching threads.
 5. Go to Triggers > Add Trigger. Suggest a daily trigger at any time which suits
 6. The script will run automatically and keep your gmail box squeaky clean!
 
-# Method 2 (In Progress)
+# Part 2: Automatic Label Creation and Assignment Based on Plus Addresses (Beta)
 1. Create an alternate email based on your primary email (firstname.lastname@gmail.com) with the word "filter" at the end (firstname.lastname.filter@gmail.com)
 2. In your filter email address: In settings, see all settings, Forwarding and POP/IMAP, add your primary email as a forwarding address. 
-3. In your filter email address: Create a filter with Doesn't have: ("to:firstname.lastname.filter+") and assign it to apply the label "alias not respected: autospam"
-4. 
+3. In your filter email address: Create a filter with Has the words: {(to:firstname.lastname@gmail.com) (deliveredto:firstname.lastname@gmail.com)} and assign it to apply the label "alias not respected: autospam"
+4. In your filter email address: Create a filter with Doesn't have the words: {(to:firstname.lastname@gmail.com) (deliveredto:firstname.lastname@gmail.com)} and assign it to apply the label "alias respected: forwarding"
+5. In your primary email, use the same process as Part 1 to create a new google script with the Autotagging_plusaddresses.gs file. 
+6. Configure the variables to reflect your filtering email, desired top level tag, and auto tagging tag for Part 1.
+7. Begin signing up for services with firstname.lastname.filter+servicename@gmail.com. If the alias is respected, if will be forwarded to your primary email and the script will automatically build out the tag named "servicename" if it does not already exist. It will also tag any emails from the service to this tag. 
