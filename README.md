@@ -44,3 +44,5 @@ Uses Gmail search syntax to find matching threads.
 5. In your primary email, use the same process as Part 1 to create a new google script with the Autotagging_plusaddresses.gs file. 
 6. Configure the variables to reflect your filtering email, desired top level tag, and auto tagging tag for Part 1.
 7. Begin signing up for services with firstname.lastname.filter+servicename@gmail.com. If the alias is respected, if will be forwarded to your primary email and the script will automatically build out the tag named "servicename" if it does not already exist. It will also tag any emails from the service to this tag. 
+
+**Unfortunately poor and not liable should something go wrong, no guarantees made with this code, use at your own risk
